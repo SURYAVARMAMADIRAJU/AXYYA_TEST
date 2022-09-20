@@ -8,13 +8,6 @@ pipeline {
   agent any
 
   stages {
-
-    stage('Checkout Source') {
-      steps {
-        git 'https://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@github.com/SURYAVARMAMADIRAJU/AXYYA_TEST'
-      }
-    }
-
     stage('Build image') {
       steps{
         script {
@@ -55,7 +48,7 @@ pipeline {
         ]
       }
     }
-    
+
     stage('Deploying App to Kubernetes') {
       steps {
         script {
