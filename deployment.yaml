@@ -17,8 +17,5 @@ spec:
       containers:
       - name: nodeserver
         image: varmadocker26/nodeapp:latest
-        resources:
-          memory:
-          cpu:
         ports:
         - containerPort: 3000
