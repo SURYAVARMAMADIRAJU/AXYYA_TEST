@@ -5,8 +5,9 @@ metadata:
 spec:
   selector:
       app: nodeapp
-  type: ClusterIP
+  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 3000
     targetPort: 3000
+    nodeport: 32220
