@@ -1,0 +1,12 @@
+{
+  "name": "node-app",
+  "version": "0.0.1",
+  "description": "Nodeapp for Testing",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
