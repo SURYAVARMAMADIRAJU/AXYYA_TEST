@@ -1,3 +1,5 @@
+@Library('nodesharelib') _
+
 pipeline {
 
   environment {
